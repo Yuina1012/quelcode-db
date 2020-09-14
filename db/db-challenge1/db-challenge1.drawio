@@ -1,4 +1,4 @@
-<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-14T07:01:58.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="QZuDBfgFYq1F7qkX-sak" version="13.1.3">
+<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-14T07:10:52.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="jRcaT6H789E79XRZDQvf" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
         <mxGraphModel dx="519" dy="2031" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
             <root>
@@ -53,7 +53,7 @@
                         <mxPoint x="539" y="107.49423076923074" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="チャット名&lt;br&gt;&lt;div&gt;チャット概要&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                <mxCell id="23" value="チャット名&lt;br&gt;&lt;div&gt;チャット概要&lt;/div&gt;&lt;div&gt;ダイレクトチャットモードON&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="370" y="80" width="120" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="ファイル" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -62,22 +62,11 @@
                 <mxCell id="28" value="&lt;b&gt;ファイルID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;opacity=50;" parent="1" vertex="1">
                     <mxGeometry x="763" y="103.51" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="&lt;b&gt;ダイレクトチャット&lt;br&gt;ルームID&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;opacity=50;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="222.97" width="130" height="37.03" as="geometry"/>
-                </mxCell>
-                <mxCell id="83" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.144;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;startSize=11;endArrow=ERzeroToMany;endFill=1;endSize=6;strokeWidth=1;" parent="1" source="33" target="36" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="85" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;startSize=12;endArrow=ERmany;endFill=0;endSize=6;strokeColor=#000000;strokeWidth=1;" parent="1" source="33" edge="1">
+                <mxCell id="85" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;startSize=12;endArrow=ERmany;endFill=0;endSize=6;strokeColor=#000000;strokeWidth=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="370" as="targetPoint"/>
+                        <mxPoint x="435" y="360" as="sourcePoint"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;endArrow=ERzeroToMany;endFill=1;exitX=-0.017;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="95" target="3">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" value="チャットルームI(FK)&lt;br&gt;&lt;div&gt;&lt;span&gt;利用者iD 1(FK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;利用者iD 2(FK)&lt;/div&gt;&lt;div&gt;&lt;span&gt;参加日時&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="260" width="130" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;opacity=60;" parent="1" vertex="1">
                     <mxGeometry x="540" y="42.97" width="160" height="157.03" as="geometry"/>
@@ -88,7 +77,7 @@
                 <mxCell id="37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="34" source="34" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="投稿内容&lt;br&gt;ファイルID(FK)&lt;br&gt;作成日時&lt;br&gt;投稿者ID(FK)&lt;br&gt;更新日時&lt;br&gt;更新者ID(FK)&lt;br&gt;チャットルームID（FK)&lt;br&gt;ダイレクトルームID(FK)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="34" vertex="1">
+                <mxCell id="36" value="投稿内容&lt;br&gt;ファイルID(FK)&lt;br&gt;作成日時&lt;br&gt;投稿者ID(FK)&lt;br&gt;更新日時&lt;br&gt;更新者ID(FK)&lt;br&gt;チャットルームID（FK)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="34" vertex="1">
                     <mxGeometry y="35.524556666423415" width="160" height="122.65139677442896" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=12;startSize=12;" parent="1" source="36" target="27" edge="1">
@@ -122,7 +111,7 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="タスク内容&lt;br&gt;投稿ID（FK）&lt;br&gt;担当者ID(FK)&lt;br&gt;期日&lt;br&gt;推進度&lt;br&gt;作成日時&lt;br&gt;作成者(FK)&lt;br&gt;更新日時&lt;br&gt;更新者(FK)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="66" value="タスク内容&lt;br&gt;投稿ID（FK）&lt;br&gt;担当者ID(FK)&lt;br&gt;期限&lt;br&gt;完了日時&lt;br&gt;作成日時&lt;br&gt;作成者(FK)&lt;br&gt;更新日時&lt;br&gt;更新者(FK)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="420" width="120" height="169" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=diamondThin;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=12;startSize=12;" parent="1" source="36" edge="1">
@@ -131,11 +120,6 @@
                         <Array as="points">
                             <mxPoint x="560" y="380"/>
                         </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="81" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;startSize=6;endArrow=ERzeroToMany;endFill=1;endSize=6;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="23" target="32" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="440" y="190" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;startSize=12;" parent="1" target="34" edge="1">
@@ -150,15 +134,6 @@
                 </mxCell>
                 <mxCell id="89" value="参加日時" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;align=left;" parent="1" vertex="1">
                     <mxGeometry x="200" y="109.99999999999997" width="120" height="32.97" as="geometry"/>
-                </mxCell>
-                <mxCell id="95" value="&lt;b&gt;利用者ID(FK)&lt;br&gt;ダイレクトチャットルームID(FK)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="210" y="160" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="97" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.81;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="1" source="96" target="33">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="96" value="参加日時" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="210" y="219.99999999999997" width="120" height="32.97" as="geometry"/>
                 </mxCell>
                 <mxCell id="99" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
                     <mxGeometry x="1060" y="320" width="40" height="20" as="geometry"/>
