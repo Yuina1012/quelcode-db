@@ -1,27 +1,21 @@
-<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-14T06:52:35.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="Ak8wibB5-O6_s7ToZShf" version="13.1.3">
+<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-14T06:59:22.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="F8cc1Q2Qg6ta029JX3IY" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="441" dy="1902" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+        <mxGraphModel dx="519" dy="2031" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="&lt;b&gt;利用者ID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;opacity=70;" parent="1" vertex="1">
                     <mxGeometry x="40" y="50" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=none;endFill=0;startArrow=ERone;startFill=0;strokeColor=none;" parent="1" source="3" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="110" y="240" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="100" y="210"/>
-                            <mxPoint x="90" y="210"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startSize=12;" parent="1" source="3" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="170" y="100" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="名前&lt;br&gt;メールアドレス&lt;br&gt;パスワード&lt;br&gt;自己紹介&lt;br&gt;携帯番号&lt;br&gt;勤務先番号&lt;br&gt;作成日時&lt;br&gt;更新日時" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                <mxCell id="107" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="3" target="105">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="名前&lt;br&gt;自己紹介&lt;br&gt;携帯番号&lt;br&gt;勤務先番号&lt;br&gt;作成日時&lt;br&gt;更新日時" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="40" y="81.49" width="120" height="118.51" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=oval;endFill=0;strokeColor=#000000;strokeWidth=1;" parent="1" edge="1">
@@ -157,9 +151,6 @@
                 <mxCell id="89" value="参加日時" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;align=left;" parent="1" vertex="1">
                     <mxGeometry x="200" y="109.99999999999997" width="120" height="32.97" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-                    <mxGeometry x="164" y="580" width="40" height="20" as="geometry"/>
-                </mxCell>
                 <mxCell id="95" value="&lt;b&gt;利用者ID(FK)&lt;br&gt;ダイレクトチャットルームID(FK)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="210" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
@@ -181,6 +172,15 @@
                         <mxPoint x="460" y="520" as="sourcePoint"/>
                         <Array as="points"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="108" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=oval;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" source="105" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="&lt;b&gt;ログインID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;opacity=70;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="290" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="利用者ID(FK)&lt;br&gt;メールアドレス&lt;br&gt;パスワード" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="320" width="120" height="118.51" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
