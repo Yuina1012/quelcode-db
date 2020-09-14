@@ -1,18 +1,13 @@
-<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-11T06:45:59.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.2 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="i7KvXvFZ5JO5n78-aKAH" version="13.1.3">
+<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-14T06:44:09.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="KPepVBaXstCyQeEfMLZ9" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="441" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+        <mxGraphModel dx="1175" dy="2029" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;b&gt;利用者ID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;opacity=70;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;b&gt;利用者ID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;opacity=70;" parent="1" vertex="1">
                     <mxGeometry x="40" y="50" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;startArrow=ERone;startFill=0;" edge="1" parent="1" source="3">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="100" y="230" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=none;endFill=0;startArrow=ERone;startFill=0;strokeColor=none;" edge="1" parent="1" source="3">
+                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=none;endFill=0;startArrow=ERone;startFill=0;strokeColor=none;" parent="1" source="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="110" y="240" as="targetPoint"/>
                         <Array as="points">
@@ -21,119 +16,129 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startSize=12;" edge="1" parent="1" source="3" target="13">
+                <mxCell id="21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startSize=12;" parent="1" source="3" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="170" y="100" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="名前&lt;br&gt;メールアドレス&lt;br&gt;パスワード&lt;br&gt;自己紹介&lt;br&gt;電話番号ID(FK)&lt;br&gt;作成日時&lt;br&gt;更新日時" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="80" width="120" height="100" as="geometry"/>
+                <mxCell id="3" value="名前&lt;br&gt;メールアドレス&lt;br&gt;パスワード&lt;br&gt;自己紹介&lt;br&gt;電話番号ID(FK)&lt;br&gt;作成日時&lt;br&gt;更新日時" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="81.49" width="120" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=oval;endFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="9">
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=oval;endFill=0;strokeColor=#000000;strokeWidth=1;" parent="1" source="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="100" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="&lt;b&gt;利用者ID(FK)&lt;br&gt;電話番号ID(FK)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="98" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=oval;startFill=0;endArrow=ERone;endFill=0;" edge="1" parent="1" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="230" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;電話番号ID(FK)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="40" y="240" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="電話番号" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="270" width="120" height="20" as="geometry"/>
+                <mxCell id="10" value="利用者ID(FK)&lt;br&gt;携帯電話番号&lt;br&gt;勤務先番号&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="270" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=oval;endFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="9" target="9">
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=oval;endFill=0;strokeColor=#000000;strokeWidth=1;" parent="1" source="9" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;strokeWidth=1;" edge="1" parent="1" source="13" target="23">
+                <mxCell id="26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;strokeWidth=1;" parent="1" source="13" target="23" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="&lt;b&gt;利用者ID(FK)&lt;br&gt;チャットルームID(FK)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="13" value="&lt;b&gt;利用者ID(FK)&lt;br&gt;チャットルームID(FK)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="50" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="&lt;b&gt;チャットルームID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;opacity=60;" vertex="1" parent="1">
+                <mxCell id="22" value="&lt;b&gt;チャットルームID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;opacity=60;" parent="1" vertex="1">
                     <mxGeometry x="370" y="50" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="23" target="22">
+                <mxCell id="24" style="edgeStyle=none;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="1" source="23" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="24">
+                <mxCell id="25" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="24" vertex="1" connectable="0">
                     <mxGeometry x="0.1667" y="5" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=12;startSize=12;" edge="1" parent="1">
+                <mxCell id="29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=12;startSize=12;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="489" y="105" as="sourcePoint"/>
                         <mxPoint x="539" y="107.49423076923074" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="チャット名&lt;br&gt;&lt;div&gt;チャット概要&lt;span&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                <mxCell id="23" value="チャット名&lt;br&gt;&lt;div&gt;チャット概要&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="370" y="80" width="120" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="ファイル" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="27" value="ファイル" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="763" y="133.51" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="&lt;b&gt;ファイルID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;opacity=50;" vertex="1" parent="1">
+                <mxCell id="28" value="&lt;b&gt;ファイルID&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;opacity=50;" parent="1" vertex="1">
                     <mxGeometry x="763" y="103.51" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="&lt;b&gt;ダイレクトチャット&lt;br&gt;ルームID&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;opacity=50;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="210" width="130" height="60" as="geometry"/>
+                <mxCell id="32" value="&lt;b&gt;ダイレクトチャット&lt;br&gt;ルームID&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;opacity=50;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="222.97" width="130" height="37.03" as="geometry"/>
                 </mxCell>
-                <mxCell id="83" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.144;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;startSize=11;endArrow=ERzeroToMany;endFill=1;endSize=6;strokeWidth=1;" edge="1" parent="1" source="33" target="36">
+                <mxCell id="83" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.144;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;startSize=11;endArrow=ERzeroToMany;endFill=1;endSize=6;strokeWidth=1;" parent="1" source="33" target="36" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="85" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;startSize=12;endArrow=ERmany;endFill=0;endSize=6;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="33">
+                <mxCell id="85" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;startSize=12;endArrow=ERmany;endFill=0;endSize=6;strokeColor=#000000;strokeWidth=1;" parent="1" source="33" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" value="チャットルームI(FK)&lt;br&gt;&lt;div&gt;&lt;span&gt;利用者iD(FK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="371" y="265" width="130" height="55" as="geometry"/>
+                <mxCell id="94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;endArrow=ERzeroToMany;endFill=1;exitX=-0.017;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="95" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;opacity=60;" vertex="1" parent="1">
+                <mxCell id="33" value="チャットルームI(FK)&lt;br&gt;&lt;div&gt;&lt;span&gt;利用者iD 1(FK)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;利用者iD 2(FK)&lt;/div&gt;&lt;div&gt;&lt;span&gt;参加日時&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="260" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;opacity=60;" parent="1" vertex="1">
                     <mxGeometry x="540" y="42.97" width="160" height="157.03" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="&lt;b&gt;投稿ID&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="34">
+                <mxCell id="35" value="&lt;b&gt;投稿ID&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="34" vertex="1">
                     <mxGeometry x="50" y="11.463260997531222" width="50" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="34" source="34" target="35">
+                <mxCell id="37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeColor=#000000;strokeWidth=1;" parent="34" source="34" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="投稿内容&lt;br&gt;ファイルID(FK)&lt;br&gt;作成日時&lt;br&gt;投稿者ID(FK)&lt;br&gt;更新日時&lt;br&gt;更新者ID(FK)&lt;br&gt;チャットルームID（FK)&lt;br&gt;ダイレクトルームID(FK)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="34">
+                <mxCell id="36" value="投稿内容&lt;br&gt;ファイルID(FK)&lt;br&gt;作成日時&lt;br&gt;投稿者ID(FK)&lt;br&gt;更新日時&lt;br&gt;更新者ID(FK)&lt;br&gt;チャットルームID（FK)&lt;br&gt;ダイレクトルームID(FK)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="34" vertex="1">
                     <mxGeometry y="35.524556666423415" width="160" height="122.65139677442896" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=12;startSize=12;" edge="1" parent="1" source="36" target="27">
+                <mxCell id="38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=12;startSize=12;" parent="1" source="36" target="27" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+                <mxCell id="50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;strokeColor=#000000;strokeWidth=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="590" y="460" as="targetPoint"/>
                         <mxPoint x="590" y="492" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="51" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bb%26gt%3B%E6%8A%95%E7%A8%BF%E8%80%85ID%26lt%3Bbr%26gt%3B%E5%88%A9%E7%94%A8%E8%80%85ID%26lt%3Bbr%26gt%3B%26lt%3B%2Fb%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22590%22%20y%3D%22210%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                <mxCell id="51" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bb%26gt%3B%E6%8A%95%E7%A8%BF%E8%80%85ID%26lt%3Bbr%26gt%3B%E5%88%A9%E7%94%A8%E8%80%85ID%26lt%3Bbr%26gt%3B%26lt%3B%2Fb%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22590%22%20y%3D%22210%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="731" y="415" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%90%8D%E5%89%8D%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22590%22%20y%3D%22240%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%90%8D%E5%89%8D%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22590%22%20y%3D%22240%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                <mxCell id="54" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%90%8D%E5%89%8D%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22590%22%20y%3D%22240%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%90%8D%E5%89%8D%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Balign%3Dleft%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22590%22%20y%3D%22240%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="743" y="504" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
+                <mxCell id="61" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;strokeColor=#000000;strokeWidth=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="741" y="450" as="sourcePoint"/>
                         <mxPoint x="741" y="480" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="64" value="タスクID" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;opacity=60;" vertex="1" parent="1">
+                <mxCell id="64" value="タスクID" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;opacity=60;" parent="1" vertex="1">
                     <mxGeometry x="500" y="390" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="66">
+                <mxCell id="67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;entryX=0.892;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="100" edge="1" target="3">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="480" as="targetPoint"/>
+                        <mxPoint x="480" y="520" as="sourcePoint"/>
+                        <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="タスク概要&lt;br&gt;投稿ID（FK）&lt;br&gt;担当者ID(FK)&lt;br&gt;期日&lt;br&gt;推進度&lt;br&gt;作成日時&lt;br&gt;作成者(FK)&lt;br&gt;更新日時&lt;br&gt;更新者(FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="66" value="タスク概要&lt;br&gt;投稿ID（FK）&lt;br&gt;担当者ID(FK)&lt;br&gt;期日&lt;br&gt;推進度&lt;br&gt;作成日時&lt;br&gt;作成者(FK)&lt;br&gt;更新日時&lt;br&gt;更新者(FK)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="500" y="420" width="120" height="169" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=diamondThin;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=12;startSize=12;" edge="1" parent="1" source="36">
+                <mxCell id="69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=diamondThin;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=12;startSize=12;" parent="1" source="36" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="560" y="380" as="targetPoint"/>
                         <Array as="points">
@@ -141,37 +146,48 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="81" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;startSize=6;endArrow=ERzeroToMany;endFill=1;endSize=6;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="23" target="32">
+                <mxCell id="81" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;startSize=6;endArrow=ERzeroToMany;endFill=1;endSize=6;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="23" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="190" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="84" value="&lt;b&gt;利用者ID(FK)&lt;br&gt;ダイレクトチャットルームID(FK)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="200" y="187.03" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;startSize=12;" edge="1" parent="1" target="84">
+                <mxCell id="86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;startSize=12;" parent="1" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="150" as="sourcePoint"/>
-                        <mxPoint x="207" y="97.5" as="targetPoint"/>
+                        <mxPoint x="110" y="50" as="sourcePoint"/>
+                        <mxPoint x="640" y="20" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="160" y="150"/>
+                            <mxPoint x="120"/>
+                            <mxPoint x="560"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.008;exitY=0.533;exitDx=0;exitDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERone;endFill=0;strokeWidth=1;entryX=-0.038;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="84" target="32">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="330" y="90" as="sourcePoint"/>
-                        <mxPoint x="379.03999999999996" y="99" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="88" value="参加日時" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="200" y="247.03" width="120" height="32.97" as="geometry"/>
-                </mxCell>
-                <mxCell id="89" value="参加日時" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;align=left;" vertex="1" parent="1">
+                <mxCell id="89" value="参加日時" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;align=left;" parent="1" vertex="1">
                     <mxGeometry x="200" y="109.99999999999997" width="120" height="32.97" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                <mxCell id="90" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
                     <mxGeometry x="164" y="580" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;b&gt;利用者ID(FK)&lt;br&gt;ダイレクトチャットルームID(FK)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.81;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="1" source="96" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="参加日時" style="rounded=0;whiteSpace=wrap;html=1;opacity=70;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="219.99999999999997" width="120" height="32.97" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="320" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&lt;b&gt;利用者ID(FK)&lt;br&gt;タスクjID(FK)&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="474.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERoneToMany;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;exitX=0.017;exitY=0.473;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.033;entryY=0.658;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="66" target="100">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410" y="520" as="targetPoint"/>
+                        <mxPoint x="460" y="520" as="sourcePoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
