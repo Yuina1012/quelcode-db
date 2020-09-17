@@ -1,7 +1,7 @@
 CREATE TABLE `users` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
       `name` varchar(128) NOT NULL,
-      `email` varchar(128) NOT NULL,
+      `mail` varchar(128) NOT NULL,
       `password` varchar(128) NOT NULL,
       `profile` varchar(1024) NOT NULL,
       `tel` verchar(16) ,
@@ -13,14 +13,15 @@ CREATE TABLE `users` (
 ) ENGINE= InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 CREATE TABLE `users_chat_rooms` (
-      `id` int(11) NOT NULL AUTO_INCREMENT,
-      `chat_room_id` int(11) NOT NULL AUTO_INCREMENT,
-      `joined_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-      PRIMARY KEY (`id`, `chat_room_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+      `user_id` int(11) NOT NULL ,
+      `chat_room_id` int(11) NOT NULL ,
+      `joined_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ,
+      INDEX インデックス名(`user_id`), 
+   FOREIGN KEY 外部キー名(`user_id`) REFERENCES `users`(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `chat_rooms` (
-      `id` int(11) NOT NULL,
+      `id` int(11) NOT NULL AUTO_INCREMENT,
       `chat_name` varchar(128) NOT NULL,
       `chat_info` varchar() NOT NULL,
       `delete_flag` tinyint(1) NOT NULL DEFAULT '0'
@@ -30,24 +31,23 @@ CREATE TABLE `chat_rooms` (
       `creater_id` int(11) NOT NULL,
       `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `updater_id` int(11) NOT NULL,
-      PRIMARY KEY (`id`)　DEFAULT NULL
+      PRIMARY KEY (`id`)　
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 CREATE TABLE `posts` (
-      `id` int(11) NOT NULL,
+      `id` int(11) NOT NULL AUTO_INCREMENT,
       `chat_room_id` int(11) NOT NULL,
       `post_content` varchar(1024) NOT NULL,
-      `chat_room_id` int(11) NOT NULL,
       `delete_flag` tinyint(1) NOT NULL DEFAULT '0',
       `posted_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `contributor_id` int(11) NOT NULL,
-      `update_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+      `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `updater_id` int(11) NOT NULL,
-      PRIMARY KEY (`id`)　DEFAULT NULL
+      PRIMARY KEY (`id`)　
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 CREATE TABLE `tasks` (
-      `id` int(11) NOT NULL,
+      `id` int(11) NOT NULL AUTO_INCREMENT,
       `task_content` varchar(1024) NOT NULL,
       `responsibler_id` int(11) NOT NULL,
       `chat_room_id` int(11) NOT NULL,
@@ -58,6 +58,6 @@ CREATE TABLE `tasks` (
       `creater_id` int(11) NOT NULL,
       `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `updater_id` int(11) NOT NULL,
-      PRIMARY KEY (`id`)　DEFAULT NULL
+      PRIMARY KEY (`id`)　
 ) ENGINE= InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
