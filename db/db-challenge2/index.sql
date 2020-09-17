@@ -16,8 +16,8 @@ CREATE TABLE `users_chat_rooms` (
       `user_id` int(11) NOT NULL ,
       `chat_room_id` int(11) NOT NULL ,
       `joined_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ,
-   	  FOREIGN KEY (`user_id`) REFERENCES `users`(`id`)
-   	  FOREIGN KEY (`chat_room_id`) REFERENCES `chat_rooms`(`id`)
+   	  FOREIGN KEY (`user_id`) REFERENCES `users`(`id`),
+   	  FOREIGN KEY (`chat_room_id`) REFERENCES `chat_rooms`(`id`),
       PRIMARY KEY (`id`, `chat_room_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -32,7 +32,9 @@ CREATE TABLE `chat_rooms` (
       `creater_id` int(11) NOT NULL,
       `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `updater_id` int(11) NOT NULL,
-      PRIMARY KEY (`id`)　
+  	  FOREIGN KEY (`creater_id`) REFERENCES `users`(`id`),
+  	  FOREIGN KEY (`updater_id`) REFERENCES `users`(`id`),
+	  PRIMARY KEY (`id`)　
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 CREATE TABLE `posts` (
@@ -44,6 +46,9 @@ CREATE TABLE `posts` (
       `contributor_id` int(11) NOT NULL,
       `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `updater_id` int(11) NOT NULL,
+  	  FOREIGN KEY (`chat_room_id`) REFERENCES `chat_rooms`(`id`),
+  	  FOREIGN KEY (`contributor_id`) REFERENCES `users`(`id`),
+  	  FOREIGN KEY (`updater_id`) REFERENCES `users`(`id`),
       PRIMARY KEY (`id`)　
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
@@ -59,6 +64,10 @@ CREATE TABLE `tasks` (
       `creater_id` int(11) NOT NULL,
       `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `updater_id` int(11) NOT NULL,
+	  FOREIGN KEY (`resposibler_id`) REFERENCES `users`(`id`),
+  	  FOREIGN KEY (`chat_room_id`) REFERENCES `chat_rooms`(`id`),
+	  FOREIGN KEY (`creater_id`) REFERENCES `users`(`id`),
+  	  FOREIGN KEY (`updater_id`) REFERENCES `users`(`id`),
       PRIMARY KEY (`id`)　
 ) ENGINE= InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
