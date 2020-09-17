@@ -1,11 +1,11 @@
 CREATE TABLE `users` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
-      `name` varchar(128) NOT NULL,
-      `mail` varchar(128) NOT NULL,
-      `password` varchar(128) NOT NULL,
-      `profile` varchar(1024) NOT NULL,
-      `tel` verchar(16) ,
-      `business_tel` verchar(16) ,
+      `name` varchar(100) NOT NULL,
+      `mail` varchar(100) NOT NULL,
+      `password` varchar(100) NOT NULL,
+      `profile` varchar(1000) NOT NULL,
+      `tel` verchar(13) ,
+      `business_tel` verchar(13) ,
       `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `delete_flag`  tinyint(1) NOT NULL DEFAULT '0',
@@ -22,8 +22,8 @@ CREATE TABLE `users_chat_rooms` (
 
 CREATE TABLE `chat_rooms` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
-      `chat_name` varchar(128) NOT NULL,
-      `chat_info` varchar() NOT NULL,
+      `chat_name` varchar(100) NOT NULL,
+      `chat_info` varchar(1000) NOT NULL,
       `delete_flag` tinyint(1) NOT NULL DEFAULT '0'
       `direct_chat_flag` tinyint(1) NOT NULL DEFAULT '0',
       `file_send_flag` tinyint(1) NOT NULL DEFAULT '0',
@@ -37,7 +37,7 @@ CREATE TABLE `chat_rooms` (
 CREATE TABLE `posts` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
       `chat_room_id` int(11) NOT NULL,
-      `post_content` varchar(1024) NOT NULL,
+      `post_content` varchar(1000) NOT NULL,
       `delete_flag` tinyint(1) NOT NULL DEFAULT '0',
       `posted_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `contributor_id` int(11) NOT NULL,
@@ -48,7 +48,7 @@ CREATE TABLE `posts` (
 
 CREATE TABLE `tasks` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
-      `task_content` varchar(1024) NOT NULL,
+      `task_content` varchar(1000) NOT NULL,
       `responsibler_id` int(11) NOT NULL,
       `chat_room_id` int(11) NOT NULL,
       `limited_at` datetime  DEFAULT NULL ,
