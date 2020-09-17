@@ -16,8 +16,9 @@ CREATE TABLE `users_chat_rooms` (
       `user_id` int(11) NOT NULL ,
       `chat_room_id` int(11) NOT NULL ,
       `joined_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ,
-      INDEX インデックス名(`user_id`), 
-   FOREIGN KEY 外部キー名(`user_id`) REFERENCES `users`(`id`)
+   	  FOREIGN KEY (`user_id`) REFERENCES `users`(`id`)
+   	  FOREIGN KEY (`chat_room_id`) REFERENCES `chat_rooms`(`id`)
+      PRIMARY KEY (`id`, `chat_room_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `chat_rooms` (
