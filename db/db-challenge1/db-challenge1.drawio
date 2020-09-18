@@ -1,4 +1,4 @@
-<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-18T12:17:25.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="Sj689w2ScNGvdC22Oc4e" version="13.1.3">
+<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-18T12:35:55.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="dhRrq9sAKufbvhH754Kw" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
         <mxGraphModel dx="519" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
             <root>
@@ -44,7 +44,7 @@
                         <mxPoint x="539" y="107.49423076923074" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="チャット名&lt;br&gt;&lt;div&gt;チャット概要&lt;/div&gt;&lt;div&gt;&lt;span&gt;削除フラグ&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;ダイレクトチャットフラグ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ファイル送信許可フラグ&lt;/div&gt;&lt;div&gt;&lt;div&gt;作成日時&lt;br&gt;作成者ID(FK)&lt;br&gt;更新日時&lt;br&gt;更新者ID(FK)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                <mxCell id="23" value="チャット名&lt;br&gt;&lt;div&gt;チャット概要&lt;/div&gt;&lt;div&gt;&lt;span&gt;削除フラグ&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;ダイレクトチャットフラグ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;ファイル添付許可フラグ&lt;/div&gt;&lt;div&gt;&lt;div&gt;作成日時&lt;br&gt;作成者ID(FK)&lt;br&gt;更新日時&lt;br&gt;更新者ID(FK)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="370" y="80" width="210" height="151.48" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" style="edgeStyle=none;rounded=0;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=ERone;startFill=0;startSize=12;endArrow=ERmany;endFill=0;endSize=6;strokeColor=#000000;strokeWidth=1;" parent="1" edge="1">
