@@ -1,6 +1,6 @@
-<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-18T11:16:30.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="soW53HyAYpIiW6gkcnne" version="13.1.3">
+<mxfile host="f037d844-07de-4de9-8e7b-a0df0bd2306a" modified="2020-09-18T12:17:25.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="Sj689w2ScNGvdC22Oc4e" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="621" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+        <mxGraphModel dx="519" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -95,7 +95,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="タスク内容&lt;br&gt;担当者ID(FK)&lt;br&gt;チャットルームID（FK）&lt;br&gt;期限&lt;br&gt;完了日時&lt;br&gt;削除フラグ&lt;br&gt;作成日時&lt;br&gt;作成者(FK)&lt;br&gt;更新日時&lt;br&gt;更新者(FK)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="66" value="タスク内容&lt;br&gt;担当者ID(FK)&lt;br&gt;チャットルームID（FK）&lt;br&gt;期限&lt;br&gt;完了フラグ&lt;br&gt;削除フラグ&lt;br&gt;作成日時&lt;br&gt;作成者(FK)&lt;br&gt;更新日時&lt;br&gt;更新者(FK)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="450" y="420" width="150" height="169" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;strokeWidth=1;endSize=8;startSize=10;exitX=0.406;exitY=1.055;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="23" edge="1">
@@ -114,6 +114,7 @@
                         <mxPoint x="640" y="20" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="120"/>
+                            <mxPoint x="790"/>
                             <mxPoint x="801"/>
                         </Array>
                     </mxGeometry>
