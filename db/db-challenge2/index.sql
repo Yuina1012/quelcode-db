@@ -55,7 +55,7 @@ CREATE TABLE `posts` (
 
 CREATE TABLE `tasks` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
-      `task_content` varchar(1000) NOT NULL,
+      `content` varchar(1000) NOT NULL,
       `person_in_charge` int(11) NOT NULL,
       `chat_room_id` int(11) NOT NULL,
       `deadline` datetime  DEFAULT NULL ,
