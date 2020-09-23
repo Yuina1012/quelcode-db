@@ -40,7 +40,7 @@ CREATE TABLE `users_chat_rooms` (
 CREATE TABLE `posts` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
       `chat_room_id` int(11) NOT NULL,
-      `post_content` varchar(1000) NOT NULL,
+      `content` varchar(1000) NOT NULL,
       `file_name` varchar(100) DEFAULT NULL,
       `is_deleted` tinyint(1) NOT NULL DEFAULT '0',
       `posted_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ,
