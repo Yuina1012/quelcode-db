@@ -23,8 +23,8 @@ CREATE TABLE `chat_rooms` (
       `created_by` int(11) NOT NULL,
       `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
       `updated_by` int(11) NOT NULL,
-  	  FOREIGN KEY (`creater_id`) REFERENCES `users`(`id`),
-  	  FOREIGN KEY (`updater_id`) REFERENCES `users`(`id`),
+  	  FOREIGN KEY (`created_by`) REFERENCES `users`(`id`),
+  	  FOREIGN KEY (`updated_by`) REFERENCES `users`(`id`),
 	  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
