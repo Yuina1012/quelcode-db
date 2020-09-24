@@ -6,4 +6,3 @@ insert into tasks (content, person_in_charge, chat_room_id, deadline, is_complet
 insert into tasks (content, person_in_charge, chat_room_id, deadline, is_completed, is_deleted, created_at, created_by, updated_at, updated_by) values('投稿が見えるかチェック', 2, 5,null,0, 0,'2020/04/26 09:21:58',1,'2020/04/26 09:21:58',1);
 insert into tasks (content, person_in_charge, chat_room_id, deadline, is_completed, is_deleted, created_at, created_by, updated_at, updated_by) values('投稿が見えるかチェック', 3, 6,null,0, 0,'2020/04/26 11:22:44',1,'2020/04/26 11:22:44',1);
 insert into tasks (content, person_in_charge, chat_room_id, deadline, is_completed, is_deleted, created_at, created_by, updated_at, updated_by) values('投稿が見えるかチェック', 10, 7,null,0, 0,'2020/04/26 13:23:50',1,'2020/04/26 13:23:50', 1);
-
