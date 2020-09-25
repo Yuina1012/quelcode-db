@@ -1,0 +1,1 @@
+SELECT `user_id`, u2.`name`, `chat_room_id`, c.`name`, substring(`joined_at`, 1, 10) as `joined_at` FROM `users_chat_rooms` join `users` as u2 on `user_id` = u2.`id` JOIN `chat_rooms` as c on `chat_room_id` = c.`id` order by chat_room_id;
