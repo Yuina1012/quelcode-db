@@ -71,4 +71,3 @@ CREATE TABLE `tasks` (
       FOREIGN KEY (`updated_by`) REFERENCES `users`(`id`),
       PRIMARY KEY (`id`)
 ) ENGINE= InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
-
