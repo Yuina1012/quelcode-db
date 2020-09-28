@@ -1,0 +1,1 @@
+SELECT u.name, p.posted_at,c.name from posts as p join users as u on p.posted_by = u.id join chat_rooms as c on p.chat_room_id = c.id where p.is_deleted=0 AND u.is_deleted=0 AND posted_at in(SELECT MAX(posted_at) from posts GROUP by chat_room_id HAVING max(posted_at)) ORDER BY chat_room_id;
