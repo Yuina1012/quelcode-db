@@ -1,1 +1,9 @@
-SELECT  c.name, count(p.chat_room_id) as 投稿数 from chat_rooms as c JOIN posts as p on c.id = p.chat_room_id join users as u on p.posted_by =  u.id where p.is_deleted = 0 and u.is_deleted = 0 group by p.chat_room_id order by 投稿数 desc;
+SELECT  c.name, COUNT(p.chat_room_id) AS 投稿数 
+FROM chat_rooms AS c 
+JOIN posts AS p
+ON c.id = p.chat_room_id 
+JOIN users AS u 
+ON p.posted_by =  u.id 
+WHERE p.is_deleted = 0 AND u.is_deleted = 0
+GROUP BY p.chat_room_id 
+ORDER BY 投稿数 DESC;
