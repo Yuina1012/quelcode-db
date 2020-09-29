@@ -1,4 +1,4 @@
-SELECT  u2.name, c.name, SUBSTRING(joined_at, 1, 10) AS joined_at
+SELECT  u2.name, c.name, date_format(joined_at, '%Y %m %d') AS joined_at
 FROM users_chat_rooms 
 JOIN users AS u2 
 ON user_id = u2.id 
