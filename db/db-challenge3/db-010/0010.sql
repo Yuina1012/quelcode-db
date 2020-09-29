@@ -1,5 +1,5 @@
 SELECT c.name, d.`最新投稿日`, u.name
-FROM (SELECT p.chat_room_id AS `チャットルームID`,MAX(p.posted_at) AS `最新投稿日` 
+FROM (SELECT p.chat_room_id AS `チャットルームID`, MAX(p.posted_at) AS `最新投稿日` 
       FROM posts AS p 
       JOIN users AS u 
       ON p.posted_by = u.id 
